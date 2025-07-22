@@ -25,13 +25,4 @@
 		"uniques": ["40% of food is carried over after a new citizen is born", "[+2 Food, +2 Production] from [Forest] tiles [in this city]","[+50]% Great Person generation [in this city]"],
 		"requiredTech": "Theology"
 	},
-	{
-		"name": "Menegroth, les Milles Cavernes",
-		"culture": 20,
-		"production": 7,
-		"isWonder": true,
-		"uniques": ["Gain a free [Observatory] [in this city]", "Free [Great Artist] appears"],
-		"requiredTech": "Astronomy",
-		"quote": "'Au-delà, de larges passages descendaient vers de hautes halles et de profondes salles sculptées dans la pierre vive, si nombreuses et si vastes que cette demeure se nommait Menegroth, les Mille Cavernes.' — Le Silmarillion — Quenta Silmarillion — Chapitre 10"
-	}
 ]
