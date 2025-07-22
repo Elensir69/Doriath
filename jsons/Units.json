@@ -1,17 +1,58 @@
 [
 	{
-		"name": "Phasers",
+		"name": "Archers de Doriath",
 		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
+		"uniqueTo": "Doriath",
+		"replaces": "Archer",
 		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
+		"strength": 5,
+		"rangedStrength": 10,
+		"range": 3,
+		"cost": 200,
+		"requiredTech": "Archery",
+		"promotions": ["Barrage III","Woodsman"],
+		"attackSound": "Archer"
+	},
+	{
+		"name": "Garde de Menegroth",
+		"unitType": "Ranged",
+		"uniqueTo": "Doriath",
+		"replaces": "Composite Bowman",
+		"movement": 3,
+		"strength": 15,
+		"rangedStrength": 22,
+		"range": 3,
+		"cost": 460,
+		"requiredTech": "Machinery",
+		"promotions": ["Barrage III","Chu-ko-Nu ability"],
+		"attackSound": "Composite Bowman"
+	},
+	{
+		"name": "Chasse de Doriath",
+		"unitType": "Ranged",
+		"uniqueTo": "Doriath",
+		"replaces": "Gatling Gun",
+		"movement": 4,
+		"strength": 32,
+		"rangedStrength": 33,
 		"range": 2,
-		"cost": 500,
+		"cost": 740,
+		"requiredTech": "Industrialization",
+		"promotions": ["Barrage III","Blitz", "Jaguar Ability"],
+		"attackSound": "Archer"
+	},
+	{
+		"name": "Garde de Melian",
+		"unitType": "Ranged",
+		"uniqueTo": "Doriath",
+		"replaces": "machine Gun",
+		"movement": 3,
+		"strength": 70,
+		"rangedStrength": 77,
+		"range": 3,
+		"cost": 1030,
 		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+		"promotions": ["Barrage III","Indirect Fire", "Jaguar Ability"],
+		"attackSound": "Archer"
+	}	
 ]
