@@ -29,7 +29,6 @@
 		"name": "Menegroth, les Milles Cavernes",
 		"culture": 20,
 		"production": 7,
-		"greatPersonPoints": [{"Great Artist": 1, "Great Engineer": 1}],
 		"isWonder": true,
 		"uniques": ["Gain a free [Observatory] [in this city]", "Free [Great Artist] appears"],
 		"requiredTech": "Astronomy",
